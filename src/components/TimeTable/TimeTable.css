@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Courier+Prime:ital@1&family=Itim&family=Nunito+Sans:ital,wght@0,200;1,200&display=swap');
+
+.food-table{
+    margin: auto;
+font-family: 'Nunito Sans', sans-serif;
+text-align: center;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+tr,td{
+    padding:0.3rem;
+}
+thead{
+    background-color: rgb(1,152,122);
+    color: white;
+font-family:Arial, Helvetica, sans-serif;   
+}
+tbody>tr:nth-child(even){
+    background-color: grey;
+    color:black;
+    font-weight: 900;
+}
+tbody>tr:nth-child(odd){
+    background-color: white;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+a:active{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+td:hover{
+background-color: rgb(1,152,122);
+}
+a:hover{
+    color:white;
+}

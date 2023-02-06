@@ -1,4 +1,5 @@
 import {UPDATE_FOOD} from './foodTableActions'
-function UpdateFood(newfood){
+export function UpdateFood(newfood){
+    console.log(newfood)
     return {type:UPDATE_FOOD,payload:newfood}
 }
